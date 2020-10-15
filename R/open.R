@@ -6,7 +6,7 @@
 #'
 #' @export
 #' @param repo The path to the git repository. If the directory is not a
-#' repository, parent directories are considered (see [git_find]). To disable
+#' repository, parent directories are considered (see `git_find`). To disable
 #' this search, provide the filepath protected with [I()]. When using this
 #' parameter, always explicitly call by name (i.e. `repo = `) because future
 #' versions of gert may have additional parameters.
